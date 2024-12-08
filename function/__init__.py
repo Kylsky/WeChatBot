@@ -1,3 +1,4 @@
+from function.bus_path_function import BusPathFunction
 from function.current_time_function import CurrentTimeFunction
 from function.email_send_function import EmailFunction
 from function.factory import Functions
@@ -10,6 +11,7 @@ functions.register(WeatherFunction)
 functions.register(CurrentTimeFunction)
 functions.register(EmailFunction)
 functions.register(WebSearchFunction)
+functions.register(BusPathFunction)
 
 function_declares = functions.get_all_declare()
 
